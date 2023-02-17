@@ -234,7 +234,7 @@ impl GeomData {
     ///
     /// * `geom_tp` Geometry type.
     /// * `data` Validated geometry.
-    fn new(geom_tp: GeomType, data: Vec<u32>) -> Self {
+    pub fn new(geom_tp: GeomType, data: Vec<u32>) -> Self {
         GeomData { geom_tp, data }
     }
 
